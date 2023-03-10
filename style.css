@@ -1,19 +1,21 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(125, 205, 231);
   }
   
   h1 {
     color: white;
-    text-align: center;
   }
   
-  p {
-    font-family: verdana;
+  .center{
+    text-align: center;
+  }
+
+  #para {
+    color: rgb(27, 214, 21);
+    font-family: arial;
     font-size: 20px;
   }
 
-  p {
-    color: rgb(255, 255, 255);
-    font-family: arial;
-    font-size: 20px;
+  .cor {
+    color: rgb(27, 214, 21);
   }
