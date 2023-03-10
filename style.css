@@ -1,21 +1,44 @@
 body {
-    background-color: rgb(125, 205, 231);
+    background-color: rgb(202, 204, 255);
   }
   
   h1 {
+    font-family: cursive;
     color: white;
+    background-color: rgb(62, 114, 165);
+    border: 3px solid rgb(87, 94, 105);
+    border-radius: 10px;
   }
-  
+  /*id top*/
   .center{
     text-align: center;
   }
 
   #para {
-    color: rgb(27, 214, 21);
-    font-family: arial;
+    font-family: monospace;
     font-size: 20px;
   }
 
   .cor {
-    color: rgb(27, 214, 21);
+    color: rgb(255, 255, 255);
+  }
+
+  .sombra{
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  div {
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; right:200px;}
+    25%  {left:200px; right:0px;}
+    50%  {left:0px; right:400px;}
+    75%  {left:200px; right:0px;}
+    100% {left:0px; right:400px;}
   }
