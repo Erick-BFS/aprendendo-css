@@ -1,5 +1,7 @@
 body {
     background-color: rgb(202, 204, 255);
+    /*background-image: url("img/jeep.gif");
+    */
   }
   
   h1 {
@@ -30,7 +32,7 @@ body {
   div {
     position: relative;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
   }
   
@@ -40,4 +42,18 @@ body {
     50%  {left:600px;}
     75%  {left:-600px;}
     100% {left:600px;}
+  }
+
+  .margem {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  .preenchimento {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
   }
