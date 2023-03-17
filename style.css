@@ -1,13 +1,14 @@
 body {
     background-color: rgb(202, 204, 255);
-    /*background-image: url("img/jeep.gif");
-    */
+    /*background-image: url("img/jeep.gif");*/
+    /*font-family: 'Noto Sans TC', sans-serif;*/
   }
   
   h1 {
     font-family: cursive;
     color: white;
     background-color: rgb(62, 114, 165);
+    /*background-image: url("img/jeep.gif");*/
     border: 3px solid rgb(87, 94, 105);
     border-radius: 10px;
   }
@@ -19,10 +20,16 @@ body {
   #para {
     font-family: monospace;
     font-size: 20px;
+    text-indent: 50px;
+    text-decoration-line: underline;
   }
 
   .cor {
     color: rgb(255, 255, 255);
+  }
+
+  .sans {
+    color: rgb(62, 207, 255);
   }
 
   .sombra{
@@ -57,3 +64,21 @@ body {
     padding-bottom: 50px;
     padding-left: 80px;
   }
+
+  a:link, a:visited {
+    background-color: rgb(62, 114, 165);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(87, 94, 105);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(39, 147, 255);
+    color: rgb(255, 255, 255);
+  }
+
+  
+  
